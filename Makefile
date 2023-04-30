@@ -1,4 +1,4 @@
-CXX = g++
+CXX = $(shell which g++ clang++ | head -1)
 CXXFLAGS = -std=c++14 -Wall
 LDFLAGS =
 
