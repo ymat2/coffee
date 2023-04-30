@@ -1,11 +1,11 @@
-# `coffee`
+# coffee
 `coffee` is a joke command that generate a coffee ASCII art writen in C++.
 
 ## Requirements
 - C++14 Compiler (e.g. `g++`)
 - 'make'
 
-## Installation & Build
+## Install & Build
 ```bash
 git clone https://github.com/ymat2/coffee
 cd coffee
