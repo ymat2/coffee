@@ -18,10 +18,6 @@ export PATH="PATH_TO_THIS_DIRECTORY"  # in ~/.bashrc etc.
 `coffee` generates a coffee ASCII art for a specified time in `-t` option.
 (The default time is 10 sec.)
 
-> **Note**  
-> Console will be cleared when running coffee
-
-
 ```bash
 coffee -t 20
 >>>
