@@ -33,7 +33,8 @@ int main(int argc, char* argv[]) {
 	}
 
 	for (int i=0;i<2*t;i++) {
-		std::system("clear");
+		// std::system("clear");
+		if (i>0) std::cout << "\033[9A\033[J";
 		std::cout << lines(i) << std::endl;
 		std::this_thread::sleep_for(std::chrono::milliseconds(500));
 	}

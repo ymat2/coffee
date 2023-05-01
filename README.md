@@ -1,9 +1,10 @@
 # coffee
-`coffee` is a joke command that generate a coffee ASCII art writen in C++.
+`coffee` is a joke command that generates a coffee ASCII art writen in C++.
 
 ## Requirements
+- Unix-like environment (supports [ANSI escape codes](https://gist.github.com/fnky/458719343aabd01cfb17a3a4f7296797))
 - C++14 Compiler (e.g. `g++`)
-- 'make'
+- `make`
 
 ## Install & Build
 ```bash
