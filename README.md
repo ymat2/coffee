@@ -4,13 +4,14 @@
 ## Requirements
 - Unix-like environment (supports [ANSI escape codes](https://gist.github.com/fnky/458719343aabd01cfb17a3a4f7296797))
 - C++14 Compiler (e.g. `g++`)
-- `make`
+- `cmake`
 
 ## Install & Build
 ```bash
 git clone https://github.com/ymat2/coffee
 cd coffee
-make
+cmake -S . -B build
+cmake --build build
 export PATH="PATH_TO_THIS_DIRECTORY"  # in ~/.bashrc etc.
 ```
 
